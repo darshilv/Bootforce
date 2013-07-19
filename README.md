@@ -12,5 +12,7 @@ Things to do
 ============
 
   Add active tab indicator to the page
+  
   Make the navigation touch friendly for mobile devices
+  
   And many other things
