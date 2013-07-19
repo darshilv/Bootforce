@@ -10,15 +10,19 @@
 .myNav-left li{
 	list-style: none;
 	vertical-align: middle;
-	padding: 20px;
 	border-bottom: 1px solid grey;
+}
+
+.linkElements a: hover{
+	text-decoration: none;
 }
 
 .tabLink{
 	display: block;
 	vertical-align: middle;
+	padding: 20px;
 }
 
 .active{
-	background-color: lightgrey;
+	background-color: whitesmoke;
 }
