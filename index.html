@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html ng-app="bootforceApp">
+<head>
+    <title>Bootforce</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge hrome=1">
+    <meta name="viewport" content="width=device-width ,initial-scale=1">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta name="keywords" content="Canvas demo with nodejs">
+
+    <link rel="stylesheet" href="app/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="app/styles/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="app/styles/app.css">
+</head>
+<body>
+    <header id="header">
+        <div class="navbar navbar-fixed-top" role="navigation">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a href="/" class="brand">Bootforce</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <div class="row-fluid">
+                <div class="span3">
+                    <tabs></tabs>
+                </div>
+                <div class="span9" ng-view>
+                    <!-- This is the main view in the center -->
+                </div>
+            </div>    
+        </div>
+    </div>
+    
+
+    <!-- Vendor Libs: jQuery only used for Bootstrap functionality -->
+    <script src="app/vendor/jquery.min.js"></script>
+    <script src="app/vendor/angular.js"></script>
+    
+    <!-- App libs -->
+    <script src="app/app.js"></script>
+    <script src="app/services/groupService.js"></script>
+    <script src="app/controllers/GroupsController.js"></script>
+    <script src="app/controllers/TabController.js"></script>
+    <script src="app/controllers/ScheduleController.js"></script>
+    <script src="app/controllers/ShiftBoardController.js"></script>
+    <script src="app/controllers/NoticeBoardController.js"></script>
+    <script src="app/controllers/RTOController.js"></script>
+    <script src="app/controllers/StaffListController.js"></script>
+    <script src="app/controllers/TimePrefController.js"></script>
+    <script src="app/directives/tabs.js"></script>
+    <script src="app/directives/tabElements.js"></script>
+    <script src="app/controllers/ActivityController.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.main-content{
+	margin-top: 60px;
+}
+
+.myNav-left{
+	border-right: 1px solid grey;
+	height: 100%;
+}
+
+.myNav-left li{
+	list-style: none;
+	vertical-align: middle;
+	padding: 20px;
+	border-bottom: 1px solid grey;
+}
+
+.menuLink{
+	vertical-align: middle;
+}

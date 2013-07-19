@@ -1,0 +1,12 @@
+<div class="myNav-left" ng-switch on="userType">
+    <ul ng-switch-when="staff">
+        <li ng-repeat="link in staffLinks">
+            <tab-elements linkname="{{ link.name }}" linkurl="{{ link.url }}"></tab-elements>
+        </li>
+    </ul>
+    <ul ng-switch-when="manager">
+        <li ng-repeat="link in managerLinks">
+            <tab-elements linkname="{{ link.name }}" linkurl="{{ link.url }}"></tab-elements>
+        </li>
+    </ul>
+</div>
